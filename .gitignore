@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+
+# local storage for server.js
+/data
+
+# docker deployment secrets
+/docker/.env
+
+issue.md
+update_log.md
+本地优先的Web文件管理器上传下载共享(替代FTP).txt

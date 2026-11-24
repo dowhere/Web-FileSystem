@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Web-FileSystem</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/share.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-logo" aria-hidden="true">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+          </svg>
+        </span>
+        <span>Web-FileSystem</span>
+      </div>
+      <span class="badge" id="share-badge">只读分享</span>
+    </header>
+
+    <main class="shell">
+      <div class="share-head">
+        <div class="share-heading">
+          <h1 id="share-name">Web-FileSystem</h1>
+          <p id="share-meta" class="share-meta"></p>
+        </div>
+        <a id="share-download" class="btn btn-primary" download hidden>
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span id="share-download-label">下载</span>
+        </a>
+      </div>
+
+      <nav id="breadcrumb" class="breadcrumb" aria-label="Breadcrumb" hidden></nav>
+
+      <div id="notice" class="notice" role="alert" hidden></div>
+
+      <div id="loading" class="loading" role="status">
+        <span class="spinner" aria-hidden="true"></span>
+        <span id="loading-label">正在加载…</span>
+      </div>
+
+      <section id="file-view" class="panel file-view" hidden>
+        <button id="back-button" class="back-button" type="button" hidden>
+          <span aria-hidden="true">←</span>
+          <span id="back-label">返回</span>
+        </button>
+        <div id="preview" class="preview"></div>
+        <dl id="file-info" class="file-info"></dl>
+      </section>
+
+      <section id="dir-view" hidden>
+        <div id="entry-list" class="entry-list"></div>
+        <div class="load-more-wrap">
+          <button id="load-more" class="btn" type="button" hidden>加载更多</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Web-FileSystem</span>
+      <span class="dot" aria-hidden="true">·</span>
+      <span id="footer-note">只读分享</span>
+    </footer>
+
+    <noscript>
+      <p class="noscript">此页面需要启用 JavaScript。 / This page requires JavaScript.</p>
+    </noscript>
+
+    <script type="module" src="/share.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+/node_modules
+/data
+/.git
+/.claude
+/.vscode
+/docker/.env
+*.log
+issue.md
+plan.md
+update_log.md
