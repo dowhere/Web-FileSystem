@@ -1,5 +1,5 @@
-export const VERSION = '1.13.2'
-export const UPDATED_AT = '2026-10-29T07:17:43.000Z'
+export const VERSION = '2.0.0'
+export const UPDATED_AT = '2026-11-24T06:16:59.765Z'
 export const STORAGE_KEY = 'web-filesystem-config'
 export const THEME_KEY = 'web-filesystem-theme'
 export const LANG_KEY = 'web-filesystem-lang'

@@ -2,7 +2,9 @@
 
 📁 A local-first web file manager that runs entirely on your own machine. A zero-dependency Node.js server uses a folder on disk as storage — no cloud account, no external service.
 
-**[中文](./README-CN.md) | English**
+**[中文](./README-CN.md) | English** · [Changelog](./CHANGELOG.md)
+
+[![Release](https://img.shields.io/github/v/release/dowhere/Web-FileSystem?color=f6821f)](https://github.com/dowhere/Web-FileSystem/releases)
 
 ## Features
 

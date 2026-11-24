@@ -2,7 +2,7 @@
   "name": "web-filesystem",
   "private": true,
   "description": "本地优先的 Web 文件管理器，内置本地文件服务。",
-  "version": "1.13.2",
+  "version": "2.0.0",
   "type": "module",
   "packageManager": "pnpm@10.30.3",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",

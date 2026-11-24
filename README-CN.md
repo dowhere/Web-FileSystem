@@ -2,7 +2,9 @@
 
 📁 本地优先的 Web 文件管理器，完全运行在你自己的电脑上。零依赖 Node.js 服务把本机文件夹当作存储，无需任何云服务或第三方账号。
 
-**中文 | [English](./README.md)**
+**中文 | [English](./README.md)** · [更新日志](./CHANGELOG.md)
+
+[![Release](https://img.shields.io/github/v/release/dowhere/Web-FileSystem?color=f6821f)](https://github.com/dowhere/Web-FileSystem/releases)
 
 ## 特性
 
